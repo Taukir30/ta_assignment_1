@@ -19,7 +19,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 header{
@@ -83,7 +83,7 @@ main .action{
     min-height: 200px;
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
+    margin: 90px 0;
 }
 main .action .left_body{
     display: flex;
@@ -92,13 +92,13 @@ main .action .left_body{
     justify-content: center;
 }
 main .action .left_body h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 main .action .left_body p{
     color: gray;
-    font-size: 1.2rem;
-    width: 400px;
-    margin-top: 15px;
+    font-size: 1.5rem;
+    width: 465px;
+    margin-top: 16px;
 }
 main .action .left_body a{
     text-decoration: none;
@@ -109,7 +109,7 @@ main .action .left_body a{
     font-size: 14px;
     height: 40px;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 26px;
 }
 main .action .left_body a:hover{
     background-color: #1c17b5;
@@ -118,4 +118,41 @@ main .action .left_body a:hover{
 
 main .action img{
     border-radius: 40px;
+}
+
+main .users{
+    min-height: 200px;
+    background-color: #E5E7FF;
+    border-radius: 20px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+main .users h2{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+main .users .ubody{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin: 10px 0;
+    
+}
+main .users .ubody .tile{
+    padding: 5px;
+    text-align: center;
+}
+main .users .ubody .tile h3{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #4E47FF;
+}
+main .users .ubody .tile p{
+    font-size: 1rem;
+    color: gray;
+    margin-top: 5px;
 }
