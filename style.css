@@ -217,6 +217,60 @@ main .touch .right .button{
     color: white;
     height: 60px;
 }
+main .feedback{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    padding: 10px 0;
+}
+main .feedback h2{
+    font-size: 2.6rem;
+    margin: 10px 0;
+}
+main .feedback .body{
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+main .feedback .body .card{
+    width: 450px;
+    background-color: white;
+    border: 1px solid rgb(237, 236, 236);
+    border-radius: 10px;
+    padding: 20px;
+}
+main .feedback .body .card .ratting{}
+main .feedback .body .card .ratting img{}
+main .feedback .body .card .cardbody{
+    padding: 20px 0;
+}
+main .feedback .body .card .cardbody h3{
+    margin-bottom: 10px;
+}
+main .feedback .body .card .cardbody p{}
+main .feedback .body .card .cardfoot{
+    display: flex;
+}
+main .feedback .body .card .cardfoot img{
+    border-radius: 50%;
+}
+main .feedback .body .card .cardfoot .txt{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .feedback .body .card .cardfoot .txt p{
+    color: gray;
+    font-weight: bold;
+    font-size: 1rem;
+}
+main .feedback .body .card .cardfoot .txt span{
+    color: rgb(177, 176, 176);
+}
+
 
 footer{
     background-color: white;
