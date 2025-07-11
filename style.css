@@ -217,3 +217,37 @@ main .touch .right .button{
     color: white;
     height: 60px;
 }
+
+footer{
+    background-color: white;
+    padding: 40px 0;
+}
+footer .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+footer .footer h1{
+    color: #4E47FF;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+footer .footer p{
+    text-align: center;
+    color: gray;
+}
+footer .footer .footnav{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+footer .footer .footnav a{
+    text-decoration: none;
+    color: gray;
+}
+footer .footer .footnav a:hover{
+    color: black;
+}
